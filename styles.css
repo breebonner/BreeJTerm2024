@@ -1,0 +1,19 @@
+header {
+
+}
+body {
+    background-color: white;
+}
+nav{ color: navy;
+    text-align: left;
+}
+h1 {
+    color: hotpink;
+    text-align: left;
+}
+h2 {
+    text-align: left;
+}
+ul {
+    color: pink;
+}
