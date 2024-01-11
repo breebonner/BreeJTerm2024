@@ -6,14 +6,29 @@
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <title>About.html</title>
     <nav>
-        <h1>About Bree's Family & Friends!</h1>
-        <a href="index.html"><br>Back to Homepage! (Note to self: try to figure out how to make this an icon or use an image)</a>
+        <nav>
+            <nav>Navigation Bar</nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="media.html">Media</a></li>
+            </ul>
+        </nav>
     </nav>
-
+    <h2>About Me!</h2>
 </head>
 <body>
-    <h2>About Me!</h2>
     <br>My Family :)<br>
     <br>
+    <form action="mailto:bryannaab28@gmail.com" method="post" enctype="text/plain">
+        <label>Name:<br> </label>
+        <input type="text" name="name"><br>
+        <label>E-mail:<br></label>
+        <input type="text" name="mail"><br>
+        <label for="question-comment">Questions, Comments & Concerns:</label><br>
+        <input type="text" id="question-comment" name="question-comment" size="50" required><br><br>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
 </body>
 </html>
