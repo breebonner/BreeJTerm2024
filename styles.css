@@ -3,6 +3,7 @@ header {
 }
 body {
     background-color: lightyellow;
+    font-family: "Lucida Grande"
 }
 nav{ color: navy;
     text-align: left;
@@ -15,6 +16,15 @@ h1 {
 }
 h2 {
     text-align: center;
+}
+h3 {
+    text-align: left;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 ul {
     color: pink;
@@ -44,9 +54,9 @@ a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 50%
 }
-c {
+p {
     text-align: center;
-    font-weight: bold;
+    font-style: italic;
 }
